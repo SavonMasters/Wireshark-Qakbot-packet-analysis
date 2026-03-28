@@ -52,7 +52,7 @@ Qakbot is a multi-layered trojan malware used to steal information, deliver rans
 I went ahead and was taught on MITRE that Qakbot can move laterally like a worm on SMB. The SMB traffic had dropped DLLs “efweioirfbtk.dll”, “umtqqzkklrgp.dll”, and “ltoawuimupfxvg.dll” to presumably take actions upon the network. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/bedec744d64a4329a6e87447f8ac489406755bc2/Screenshot%20from%202026-03-13%2017-30-04.png)
 I needed to export the SMB objects to the command-line to keep the SHA256 hash when on virustotal I looked and saw the hash was the same as the “86607.dat” executable from earlier. At that point I knew the attacker had connected “10[.]0[.]0[.]6” with the malware being allowed to laterally move on the network. 
 
 
