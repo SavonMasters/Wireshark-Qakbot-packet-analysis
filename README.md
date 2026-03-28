@@ -17,7 +17,7 @@ Qakbot is a trojan malware that has different purposes, like hiding on a network
                                                         Investigation  
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/169c97489f4f6e8b9b502acddd8aeec97465f2f6/Screenshot%20from%202026-03-11%2018-24-56.png)
 I first start by looking at the capture file properties to get the data about the packet. In this packet it started “2023-02-03 12:02:36”, had a duration of “02:52:06” and delivered “55207” packets. 
 
 
