@@ -25,7 +25,7 @@ I first start by looking at the capture file properties to get the data about th
 I go over to the protocol hierarchy statistics to understand the most active protocol used in the packet. I am curious on the SMB, HTTP, and ARP (Address resolution protocol) traffic that was generated. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/961d036c328356753b30b9166fb3ebac8f1b78c4/Screenshot%20from%202026-03-11%2018-41-43.png)
 I select the conversations feature, it will show who’s most likely is our client IP address and different IP addresses talking with them. In this session you can see “10[.]0[.]0[.]149” is likely the clients IP addresses and “10[.]0[.]0[.]6” and “208[.]187[.]122[.]74” talking the most to them. 
 
 
