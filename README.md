@@ -29,7 +29,7 @@ I go over to the protocol hierarchy statistics to understand the most active pro
 I select the conversations feature, it will show who’s most likely is our client IP address and different IP addresses talking with them. In this session you can see “10[.]0[.]0[.]149” is likely the clients IP addresses and “10[.]0[.]0[.]6” and “208[.]187[.]122[.]74” talking the most to them. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/1399a2b179ba2b52e5ef4819c60cfae32e7ea454/Screenshot%20from%202026-03-11%2018-52-00.png)
 I chose to break down the HTTP packets first. This first packet contain a GET request for “/86607.dat” from a unsecure website “hxxp[://]128[.]254[.]287[.]55/86607.dat” by the user agent “curl/7.83.1”. The curl user agent is used to transfer data to a server and the “MZ” in the binary is a message for an executable in the payload. 
 
 
