@@ -40,7 +40,7 @@ I chose to break down the HTTP packets first. This first packet contain a GET re
 With the data that “86607.dat” is an executable I exported it to the command line, could be able to get the SHA256 hash “713207d9d9875ec88d2f3a53377bf8c2d620147a4199eb183c13a7e957056432”. I sent the hash to virus total and received the output that it was a malicious trojan malware in relation to the Qaktbot malware. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/9dcccc2e9d5b592e3bc73c30039d68bd364a7988/Wireshark%20Qakbot%202.png)
 Qakbot is a multi-layered trojan malware used to steal information, deliver ransomware and infect network systems. It’s been noticed to list tactics of system network configuration discovery and internet connection discovery using ARP and ICMP. I connected that an ARP scan had taken place because of the multiple ARP requests to decreasing IP addresses, in order in a specific time window from the same MAC address “IntelCor_9e:42:fb”. Another ICMP requests were made to see if a network connection could be allowed to the IP addresses. 
 
 
