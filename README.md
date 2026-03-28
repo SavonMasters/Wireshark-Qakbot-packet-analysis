@@ -46,7 +46,7 @@ With the data that “86607.dat” is an executable I exported it to the command
 Qakbot is a multi-layered trojan malware used to steal information, deliver ransomware and infect network systems. It’s been noticed to list tactics of system network configuration discovery and internet connection discovery using ARP and ICMP. I connected that an ARP scan had taken place because of the multiple ARP requests to decreasing IP addresses, in order in a specific time window from the same MAC address “IntelCor_9e:42:fb”. Another ICMP requests were made to see if a network connection could be allowed to the IP addresses. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/4e9253786a4ac675e0ee9f88a45feaadf8da9750/Wireshark%20Qakbot%204.png)
 I went ahead and was taught on MITRE that Qakbot can move laterally like a worm on SMB. The SMB traffic had dropped DLLs “efweioirfbtk.dll”, “umtqqzkklrgp.dll”, and “ltoawuimupfxvg.dll” to presumably take actions upon the network. 
 
 
