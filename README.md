@@ -30,6 +30,7 @@ I select the conversations feature, it will show who’s most likely is our clie
 
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/1399a2b179ba2b52e5ef4819c60cfae32e7ea454/Screenshot%20from%202026-03-11%2018-52-00.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/b90d0aab90d277b91184dff2a2f57a6a503cf045/Screenshot%20from%202026-03-11%2018-52-46.png)
 I chose to break down the HTTP packets first. This first packet contain a GET request for “/86607.dat” from a unsecure website “hxxp[://]128[.]254[.]287[.]55/86607.dat” by the user agent “curl/7.83.1”. The curl user agent is used to transfer data to a server and the “MZ” in the binary is a message for an executable in the payload. 
 
 
