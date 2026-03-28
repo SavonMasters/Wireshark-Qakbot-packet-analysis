@@ -21,7 +21,7 @@ Qakbot is a trojan malware that has different purposes, like hiding on a network
 I first start by looking at the capture file properties to get the data about the packet. In this packet it started “2023-02-03 12:02:36”, had a duration of “02:52:06” and delivered “55207” packets. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/0c58d789459cc76665e9f16ae29dfa4fbf8d3908/Screenshot%20from%202026-03-11%2018-34-01.png)
 I go over to the protocol hierarchy statistics to understand the most active protocol used in the packet. I am curious on the SMB, HTTP, and ARP (Address resolution protocol) traffic that was generated. 
 
 
