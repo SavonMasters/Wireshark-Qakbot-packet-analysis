@@ -64,32 +64,50 @@ The attack happened when our client “10[.]0[.]0[.]9” requested a HTTP GET re
 
                                                         IOCs
 
-The attackers IP address and website “128[.]254[.]287[.]55” “hxxp[://]128[.]254[.]287[.]55”
-The infected link from the website “86607.dat”.
-The link’s SHA256 hash “713207d9d9875ec88d2f3a53377bf8c2d620147a4199eb183c13a7e957056432”.
-The hash’s record being together with the Qakbot. 
-A visible ARP scan being displayed.
-The DLLs being messaged to “10[.]0[.]0[.]6” “efweioirfbtk.dll”, “umtqqzkklrgp.dll”, and “ltoawuimupfxvg.dll”.
-The DLL’s hash being the same as the “86607.dat” 
-The MITRE techniques performed by the malware “T1071.001 Application’s layer protocol:web protocols”, “T1210 Exploitation of remote services”, “T1016 System network configuration discovery", “T1049 System network connections discovery”. and “T1204.001 User execution:malicious links”. 
+* The attackers IP address and website “128[.]254[.]287[.]55” “hxxp[://]128[.]254[.]287[.]55”
+
+* The infected link from the website “86607.dat”.
+
+* The link’s SHA256 hash “713207d9d9875ec88d2f3a53377bf8c2d620147a4199eb183c13a7e957056432”.
+
+* The hash’s record being together with the Qakbot. 
+
+* A visible ARP scan being displayed.
+
+* The DLLs being messaged to “10[.]0[.]0[.]6” “efweioirfbtk.dll”, “umtqqzkklrgp.dll”, and “ltoawuimupfxvg.dll”.
+
+* The DLL’s hash being the same as the “86607.dat” 
+
+* The MITRE techniques performed by the malware “T1071.001 Application’s layer protocol:web protocols”, “T1210 Exploitation of remote services”, “T1016 System network configuration discovery", “T1049 System network connections discovery”. and “T1204.001 User execution:malicious links”. 
 
 
                                                           Recommendations 
 
-Block the attacker’s IP address and site “128[.]254[.]287[.]55” “hxxp[://]128[.]254[.]287[.]55”.
-Delete the malware from the server. 
-Add the executable to the antivirus software firewall. 
-Start to get alerts for ARP scans transmitted on the server.
-Insert all the DLLs in the antivirus software firewall with the other executable. 
-Do not use HTTP port for anything because it is open for security events. 
-Compare the server to see if IOCs are on the server right now.
-Decide whether “10[.]0[.]0[.]6” post attack has moved laterally to deeper in the server. 
+* Block the attacker’s IP address and site “128[.]254[.]287[.]55” “hxxp[://]128[.]254[.]287[.]55”.
+
+* Delete the malware from the server. 
+
+* Add the executable to the antivirus software firewall. 
+
+* Start to get alerts for ARP scans transmitted on the server.
+
+* Insert all the DLLs in the antivirus software firewall with the other executable. 
+
+* Do not use HTTP port for anything because it is open for security events. 
+
+* Compare the server to see if IOCs are on the server right now.
+
+* Decide whether “10[.]0[.]0[.]6” post attack has moved laterally to deeper in the server. 
 
 
                                                         Things I learned 
 
-Wiresharks query language and layout of the tool.
-How the malware finds information and moves on the server. 
-Research known IOCs of the malware see related events happening on the server.
-Investigate each of the communications channels on a server for new levels to attack.
-Pulling MITRE backstory and days of the attacks taking place before.
+* Wiresharks query language and layout of the tool.
+
+* How the malware finds information and moves on the server. 
+
+* Research known IOCs of the malware see related events happening on the server.
+
+* Investigate each of the communications channels on a server for new levels to attack.
+
+* Pulling MITRE backstory and days of the attacks taking place before.
