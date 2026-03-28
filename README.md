@@ -48,6 +48,7 @@ Qakbot is a multi-layered trojan malware used to steal information, deliver rans
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/4e9253786a4ac675e0ee9f88a45feaadf8da9750/Wireshark%20Qakbot%204.png)
 ![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/05df61803af5668d23d7f40e3339d2efdb1bb823/Screenshot%20from%202026-03-12%2018-53-50.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/bb4a5b46413ac63bc43150d7ec6a9803d098f2ee/Screenshot%20from%202026-03-12%2018-56-40.png)
 I went ahead and was taught on MITRE that Qakbot can move laterally like a worm on SMB. The SMB traffic had dropped DLLs “efweioirfbtk.dll”, “umtqqzkklrgp.dll”, and “ltoawuimupfxvg.dll” to presumably take actions upon the network. 
 
 
