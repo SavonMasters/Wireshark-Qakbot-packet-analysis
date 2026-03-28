@@ -35,6 +35,7 @@ I chose to break down the HTTP packets first. This first packet contain a GET re
 
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/f8f708208ae41b3aac4ab4ef0ac17c71b6ac9f33/Screenshot%20from%202026-03-12%2016-57-40.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Qakbot-packet-analysis/blob/2057a8b209d93df8b8aa3bc297876f9bad488200/Screenshot%20from%202026-03-12%2017-03-31.png)
 With the data that “86607.dat” is an executable I exported it to the command line, could be able to get the SHA256 hash “713207d9d9875ec88d2f3a53377bf8c2d620147a4199eb183c13a7e957056432”. I sent the hash to virus total and received the output that it was a malicious trojan malware in relation to the Qaktbot malware. 
 
 
